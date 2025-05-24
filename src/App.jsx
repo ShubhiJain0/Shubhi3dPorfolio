@@ -286,7 +286,7 @@ function ProjectsModal({ onClose }) {
 
             {/* Block 2 */}
             <div className="bg-white p-4 rounded-lg shadow-md w-full sm:w-[40%] lg:w-[30%] transform transition-transform duration-300 ease-in-out hover:scale-105">
-              <div className="bg-gray-300 rounded mb-4 overflow-hidden">
+              <div className="bg-gray-300 rounded mb-4 overflow-hidden sm:w-[40%] h-[20%]">
                 <img
                   className="w-full h-auto object-cover"
                   src="uber.gif"
