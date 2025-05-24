@@ -243,7 +243,7 @@ function ProjectsModal({ onClose }) {
         padding: "2rem",
       }}
     >
-      <div className="fixed inset-0 bg-black/30 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+      <div className="fixed inset-0 bg-black/30 backdrop-blur-sm z-50 flex items-center justify-center p-4 overflow-auto h-screen">
         <div className="bg-pink-200 p-12 rounded-xl shadow-2xl w-full max-w-6xl relative">
           {/* Close Button */}
           <button
@@ -257,7 +257,7 @@ function ProjectsModal({ onClose }) {
           {/* Blocks */}
           <div className="flex justify-between gap-6 mt-8 flex-wrap">
             {/* Block 1 */}
-            <div className="bg-white p-4 rounded-lg shadow-md w-full sm:w-[47%] lg:w-[30%] transform transition-transform duration-300 ease-in-out hover:scale-105">
+            <div className="bg-white p-4 rounded-lg shadow-md w-full sm:w-[40%] lg:w-[30%] transform transition-transform duration-300 ease-in-out hover:scale-105 ">
               <div className="bg-gray-300 rounded mb-4 overflow-hidden">
                 <img
                   src="bloggingapp.gif"
@@ -285,7 +285,7 @@ function ProjectsModal({ onClose }) {
             </div>
 
             {/* Block 2 */}
-            <div className="bg-white p-4 rounded-lg shadow-md w-full sm:w-[47%] lg:w-[30%] transform transition-transform duration-300 ease-in-out hover:scale-105">
+            <div className="bg-white p-4 rounded-lg shadow-md w-full sm:w-[40%] lg:w-[30%] transform transition-transform duration-300 ease-in-out hover:scale-105">
               <div className="bg-gray-300 rounded mb-4 overflow-hidden">
                 <img
                   className="w-full h-auto object-cover"
@@ -313,7 +313,7 @@ function ProjectsModal({ onClose }) {
             </div>
 
             {/* Block 3 */}
-            <div className="bg-white p-4 rounded-lg shadow-md w-full sm:w-[47%] lg:w-[30%] transform transition-transform duration-300 ease-in-out hover:scale-105">
+            <div className="bg-white p-4 rounded-lg shadow-md w-full sm:w-[40%] lg:w-[30%] transform transition-transform duration-300 ease-in-out hover:scale-105">
               <div className="bg-gray-300 rounded mb-4 overflow-hidde">
                 <img
                   src="giticon.jpg"
