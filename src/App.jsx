@@ -255,13 +255,17 @@ function ProjectsModal({ onClose }) {
           </button>
 
           {/* Blocks */}
-          <div className="flex justify-between gap-6 mt-8">
+          <div className="flex justify-between gap-6 mt-8 flex-wrap">
             {/* Block 1 */}
-            <div className="bg-white p-4 rounded-lg shadow-md w-[30%] min-w-[250px] transform transition-transform duration-300 ease-in-out hover:scale-110">
-              <div className="bg-gray-300  h-34  rounded mb-4">
-                <img src="bloggingapp.gif" alt="" />
+            <div className="bg-white p-4 rounded-lg shadow-md w-full sm:w-[47%] lg:w-[30%] transform transition-transform duration-300 ease-in-out hover:scale-105">
+              <div className="bg-gray-300 rounded mb-4 overflow-hidden">
+                <img
+                  src="bloggingapp.gif"
+                  alt=""
+                  className="w-full h-auto object-cover"
+                />
               </div>
-              <div className="bg-white rounded-xl shadow-md p-6 max-w-md mx-auto border border-gray-200">
+              <div className="bg-white rounded-xl shadow-md p-4 border border-gray-200">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">
                   Medium Clone
                 </h3>
@@ -281,11 +285,15 @@ function ProjectsModal({ onClose }) {
             </div>
 
             {/* Block 2 */}
-            <div className="bg-white p-4 rounded-lg shadow-md w-[30%] min-w-[250px] transform transition-transform duration-300 ease-in-out hover:scale-110">
-              <div className="h-34 bg-gray-300 rounded mb-4">
-                <img className="" src="uber.gif" alt="" />
+            <div className="bg-white p-4 rounded-lg shadow-md w-full sm:w-[47%] lg:w-[30%] transform transition-transform duration-300 ease-in-out hover:scale-105">
+              <div className="bg-gray-300 rounded mb-4 overflow-hidden">
+                <img
+                  className="w-full h-auto object-cover"
+                  src="uber.gif"
+                  alt=""
+                />
               </div>
-              <div className="bg-white rounded-xl shadow-md p-6 max-w-md mx-auto border border-gray-200">
+              <div className="bg-white rounded-xl shadow-md p-4 border border-gray-200">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">
                   Uber Clone
                 </h3>
@@ -305,9 +313,13 @@ function ProjectsModal({ onClose }) {
             </div>
 
             {/* Block 3 */}
-            <div className="bg-white p-4 rounded-lg shadow-md w-[30%] min-w-[250px] transform transition-transform duration-300 ease-in-out hover:scale-110">
-              <div className="h-32 bg-gray-300 rounded mb-4">
-                <img src="giticon.jpg" alt="" />
+            <div className="bg-white p-4 rounded-lg shadow-md w-full sm:w-[47%] lg:w-[30%] transform transition-transform duration-300 ease-in-out hover:scale-105">
+              <div className="bg-gray-300 rounded mb-4 overflow-hidde">
+                <img
+                  src="giticon.jpg"
+                  alt=""
+                  className="w-full h-auto object-cover"
+                />
               </div>
               <div className="bg-white rounded-xl shadow-md p-6 max-w-md mx-auto border border-gray-200 mt-[60px]">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">
