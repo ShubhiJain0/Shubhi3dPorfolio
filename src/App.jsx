@@ -262,7 +262,7 @@ function ProjectsModal({ onClose }) {
                 <img
                   src="bloggingapp.gif"
                   alt=""
-                  className="hidden sm:block w-full h-auto object-cover"
+                  className="hidden md:block w-full h-auto object-cover"
                 />
               </div>
               <div className="bg-white rounded-xl shadow-md p-4 border border-gray-200">
@@ -288,7 +288,7 @@ function ProjectsModal({ onClose }) {
             <div className="bg-white p-4 rounded-lg shadow-md w-full sm:w-[40%] lg:w-[30%] transform transition-transform duration-300 ease-in-out hover:scale-105">
               <div className="bg-gray-300 rounded mb-4 overflow-hidden ">
                 <img
-                  className="hidden sm:block w-full h-auto object-cover"
+                  className="hidden md:block w-full h-auto object-cover"
                   src="uber.gif"
                   alt=""
                 />
@@ -318,7 +318,7 @@ function ProjectsModal({ onClose }) {
                 <img
                   src="giticon.jpg"
                   alt=""
-                  className="hidden sm:block w-full h-auto object-cover"
+                  className="hidden md:block w-full h-auto object-cover"
                 />
               </div>
               <div className="bg-white rounded-xl shadow-md p-6 max-w-md mx-auto border border-gray-200 mt-[60px]">
